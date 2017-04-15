@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Physics Solver</title>
+		<script src="dispatch.js" charset="utf-8"></script>
+		<script src="formula.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			Put the numerical value in the first box and units in the second. Enter in all relevant variables. For units, don't use the actual units, but use the description for the type of unites (eg. a for acceleration).
+		</div>
+		<form class="form" action="index.html" method="post" id="form">
+			<input type="button" name="add" value="add value" onclick="addValue();">
+			<input type="button" name="reset" value="reset form" onclick="resetForm();">
+		</form>
+		<form class="solve" action="index.html" method="post" id="solve">
+			<input type="button" name="solve" value="solve stuff" onclick="solveVariables();">
+		</form>
+		<div id="options">
+
+		</div>
+		<div id="answers">
+
+		</div>
+	</body>
+</html>
